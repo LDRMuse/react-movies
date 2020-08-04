@@ -7,3 +7,28 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+img {
+  /* responsive images */
+  max-width: 100%;
+}
+
+
+input {
+  background-color: lightblue;
+  border-radius: 4rem;
+}
+
+button {
+  border-radius: 4rem;
+  box-shadow: lightblue;
+}
+
+
+.flex {
+  display: flex;
+}
+
+.flex-justify-content-center {
+  justify-content: center;
+}
