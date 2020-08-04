@@ -10,18 +10,20 @@ body {
 
 img {
   /* responsive images */
-  max-width: 100%;
+  max-width: 20%;
 }
 
 
 input {
-  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   border-radius: 4rem;
 }
 
 button {
   border-radius: 4rem;
-  box-shadow: lightblue;
+  box-shadow: pink;
 }
 
 
