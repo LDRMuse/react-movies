@@ -1,10 +1,20 @@
+import PropTypes from 'prop-types'
 import React from 'react'
 
+export const Form = ({handler}) => {
 
-
-export const Form = () => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    handler(event)
+  }
 
 return (
-<form><input></input></form>
+<form onSubmit={handleSubmit}><input type="search" />
+<button>Submit!</button>
+ </form>
   )
+}
+
+Form.propTypes = {
+  handler: PropTypes.func
 }

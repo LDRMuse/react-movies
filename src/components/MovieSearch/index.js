@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
 import { Cards } from './Cards'
 import { Form as Search } from './Form'
@@ -8,20 +8,16 @@ import api from 'api'
 export const MovieSearch = () => {
   const [movies, setMovies] = useState([])
 
-
-  useEffect(() => {
-    (async () => {
-      await api.index()
-    })()
-  })
-
-
+  const searchHandler = async (event) => {
+    const {results} = await api.index(event.target.elements[0].value)
+    setMovies(results)
+  }
 
 
   return (
-  <main>
-    <Search />
-    <Cards />
-  </main>
+    <main>
+      <Search handler={searchHandler}/>
+      <Cards movies={movies}/>
+    </main>
   )
 }
