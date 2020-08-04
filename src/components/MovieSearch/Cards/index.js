@@ -9,6 +9,8 @@ export const Cards = ({ movies }) => {
       return (
         <div key={movie.id}>
           <p>{movie.title}</p>
+          <img alt='movies' src={`https://image.tmdb.org/t/p/w185_and_h278_bestv2/${movie.poster_path}`}
+          />
         </div>
       )
     })
@@ -16,12 +18,7 @@ export const Cards = ({ movies }) => {
 
   return (
     renderMovies()
-    //   < div className = 'card-container' >
-    //     <img alt='movies' src={`https://image.tmdb.org/t/p/w185_and_h278_bestv2/${movie.poster_path}`}
-    //     />
-    // </div >
   )
-
 
 }
 
