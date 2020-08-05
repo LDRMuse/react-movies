@@ -9,8 +9,9 @@ export const Form = ({ handler }) => {
   }
 
   return (
-    <form onSubmit={handleSubmit}><input type="search" />
-      <button>Submit!</button>
+    <form onSubmit={handleSubmit}>
+    <input type="search" />
+    <button>Search Movies!</button>
     </form>
   )
 }
