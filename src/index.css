@@ -18,6 +18,7 @@ form {
   grid-gap: 1rem;
   grid-template-columns: 15fr 5fr auto;
   align-items: center;
+  margin-bottom: 3rem;
 }
 
 input {
