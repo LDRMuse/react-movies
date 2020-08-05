@@ -10,20 +10,19 @@ body {
 
 img {
   /* responsive images */
-  max-width: 20%;
+  max-width: 15%;
 }
 
 form {
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: 15fr 5fr auto;
+  grid-template-columns: auto 3fr auto;
   align-items: center;
   margin-bottom: 3rem;
 }
 
 input {
-
-border-radius: 4rem;
+border-radius: 1rem;
 
 }
 

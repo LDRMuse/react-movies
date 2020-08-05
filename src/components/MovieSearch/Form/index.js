@@ -10,6 +10,7 @@ export const Form = ({ handler }) => {
 
   return (
     <form onSubmit={handleSubmit}>
+    <h1>Movie Search App</h1>
     <input type="search" />
     <button>Search Movies!</button>
     </form>
