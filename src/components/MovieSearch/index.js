@@ -15,7 +15,7 @@ export const MovieSearch = () => {
 
 
   return (
-    <main>
+    <main className="has-text-centered">
       <Search handler={searchHandler}/>
       <Cards movies={movies}/>
     </main>
