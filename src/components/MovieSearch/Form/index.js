@@ -2,6 +2,8 @@ import PropTypes from 'prop-types'
 import React from 'react'
 
 
+import './Form.css'
+
 export const Form = ({ handler }) => {
 
   const handleSubmit = (event) => {
@@ -11,14 +13,14 @@ export const Form = ({ handler }) => {
 
   return (
 
-    <form className="field" onSubmit={handleSubmit}>
-      <h1 className='title is-1'>Movie Search App</h1>
 
-        <label className="label">Search for your Favorite Movies!</label>
-
+    <form onSubmit={handleSubmit}>
+      <label className="label" htmlFor="search">Search for your Favorite Movies!</label>
+      <div className='field'>
         <div className="control">
-          <input className="input" type="search" placeholder="E.g. Harry Potter" />
+          <input className="my-2" type="search" id="search" placeholder="E.g. Harry Potter" />
         </div>
+      </div>
 
       <button className='button is-primary'>Search Movies!</button>
     </form>
