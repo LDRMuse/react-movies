@@ -7,7 +7,8 @@ export const Cards = ({ movies }) => {
   const renderMovies = () => {
     return movies.map(movie => {
       return (
-        <div className='has-background-primary box has-text-centered' key={movie.id}>
+
+        <div className='content has-background-primary box has-text-centered mt-3' key={movie.id}>
           <h2 className='is-size-2'>{movie.title}</h2>
           <p>
             <img alt='movies' src={`https://image.tmdb.org/t/p/w185_and_h278_bestv2/${movie.poster_path}`}

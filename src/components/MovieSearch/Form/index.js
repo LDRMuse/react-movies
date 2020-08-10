@@ -18,10 +18,9 @@ export const Form = ({ handler }) => {
       <label className="label" htmlFor="search">Search for your Favorite Movies!</label>
       <div className='field'>
         <div className="control">
-          <input className="my-2" type="search" id="search" placeholder="E.g. Harry Potter" />
+          <input className="input my-2" type="search" id="search" placeholder="E.g. Harry Potter" />
         </div>
       </div>
-
       <button className='button is-primary'>Search Movies!</button>
     </form>
 
