@@ -15,7 +15,7 @@ export const Form = ({ handler }) => {
 
 
     <form onSubmit={handleSubmit}>
-    <img src="https://ae01.alicdn.com/kf/HTB1FVh3XCf2gK0jSZFPq6xsopXaY/Marvel-Comics-Movie-Poster-Retro-Poster-Avengers-Poster-Star-Wars-Poster-Various-Classic-Movie-Posters.jpg_960x960.jpg"/>
+    <img alt="movie" src="https://ae01.alicdn.com/kf/HTB1FVh3XCf2gK0jSZFPq6xsopXaY/Marvel-Comics-Movie-Poster-Retro-Poster-Avengers-Poster-Star-Wars-Poster-Various-Classic-Movie-Posters.jpg_960x960.jpg"/>
       <label className="label" htmlFor="search">Search for your Favorite Movies!</label>
       <div className='field'>
         <div className="control">
