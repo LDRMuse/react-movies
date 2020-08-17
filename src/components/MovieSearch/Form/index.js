@@ -19,11 +19,10 @@ export const Form = ({ handler }) => {
       <label className="label"></label>
       <div className='field'>
         <div className="control">
-          <input className="input my-2" type="search" id="search" placeholder="E.g. Harry Potter" />
+          <input className="input my-5" type="search" id="search" placeholder="E.g. Fargo" />
         </div>
       </div>
       <button className='button is-primary'>Search Movies!</button><br></br>
-      <img src="https://ae01.alicdn.com/kf/HTB1FVh3XCf2gK0jSZFPq6xsopXaY/Marvel-Comics-Movie-Poster-Retro-Poster-Avengers-Poster-Star-Wars-Poster-Various-Classic-Movie-Posters.jpg_960x960.jpg"/>
     </form>
 
 
